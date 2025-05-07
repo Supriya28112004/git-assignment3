@@ -19,3 +19,45 @@ Merge branch1 and master
 And branch2 and master gets conflicts
 ![Screenshot 2025-05-06 135851](https://github.com/user-attachments/assets/ed753078-8b2f-4f62-9b31-500a23a0445f)
 
+
+
+
+
+
+
+
+
+
+
+
+
+## ASSIGNMENT4 ##
+
+
+## Git hooks are the scripts that git automatically happens or runs actions like checking code ,running tests etc before or after actions like:
+git add
+commiting code
+pushing to repository
+merging
+checkout
+## Git hooks located in .git/hooks/ folder inside every git repository
+your project->.git/->hooks/->pre-commit.sample
+                           ->post-commit.sample
+                           ->commit-msg
+                            ->pre-push
+                            ->post-merge
+## Managing hooks uses tools like
+.Husky
+.Lefthook
+Hooks in automation
+. Prevent mistakes early(like badcode,failing test)
+. Save time
+. Maintain quality
+. Enforce rules
+Husky provides the following
+. Hooks are among
+. Autosetup npm/yarn
+. Cross platforms
+. Scripts are tracked in repository
+Husky mainly used in React, Angular, Node js projects.
+
